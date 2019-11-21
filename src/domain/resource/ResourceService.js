@@ -9,4 +9,4 @@ class ResourceService {
 	}
 }
 
-module.exports = ResourceService;
+export default ResourceService;

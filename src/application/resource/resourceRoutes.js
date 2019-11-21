@@ -1,6 +1,8 @@
-const router = require('express').Router();
-const resourceController = require('./resourceController');
+import express from 'express';
+import resourceController from './resourceController';
+
+const router = express.Router();
 
 router.get('/', resourceController('controllerMethod'));
 
-module.exports = router;
+export default router;

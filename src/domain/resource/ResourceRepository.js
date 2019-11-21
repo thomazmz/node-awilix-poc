@@ -5,4 +5,4 @@ class ResourceRepository {
 	}
 }
 
-module.exports = ResourceRepository;
+export default ResourceRepository;

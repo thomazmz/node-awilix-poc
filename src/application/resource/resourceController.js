@@ -1,4 +1,4 @@
-const { makeInvoker } = require('awilix-express');
+import { makeInvoker } from 'awilix-express';
 
 const resourceController = ({ resourceService }) => {
 	return {
@@ -9,5 +9,5 @@ const resourceController = ({ resourceService }) => {
 		}
 	}
 }
- 
-module.exports = makeInvoker(resourceController);
+
+export default makeInvoker(resourceController);
